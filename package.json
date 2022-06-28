@@ -2,14 +2,22 @@
   "name": "ssc-batch-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Index.js",
   "scripts": {
     "start": "node index.js",
     "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdur-Rahman-Argon/ssc-batch-server.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdur-Rahman-Argon/ssc-batch-server/issues"
+  },
+  "homepage": "https://github.com/Abdur-Rahman-Argon/ssc-batch-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
